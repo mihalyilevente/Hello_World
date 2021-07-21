@@ -7,7 +7,7 @@ namespace Hello_World
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            string userName = Console.ReadLine();
+           for (int i = 0; i < 5; i++) { Console.WriteLine("Sleep for 2 seconds."); Thread.Sleep(10000); } Console.WriteLine("Main thread exits.");
         }
     }
 }
